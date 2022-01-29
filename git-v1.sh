@@ -17,8 +17,6 @@
 echo "Checking for newer files online first"
 git pull
 
-#./make-package.sh
-
 # Below command will backup everything inside the project folder
 git add --all .
 
