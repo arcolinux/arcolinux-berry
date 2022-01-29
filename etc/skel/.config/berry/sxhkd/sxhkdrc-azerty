@@ -41,8 +41,8 @@ super + Tab
 super + q
     berryc window_close
 
-super + c
-    berryc window_center
+#super + c
+#    berryc window_center
 
 ~button1
     berryc pointer_focus
