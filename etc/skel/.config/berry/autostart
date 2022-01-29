@@ -66,8 +66,8 @@ berryc top_gap            30
 # Set decoration colors
 berryc focus_color         5e81ac
 berryc unfocus_color       4c566a
-berryc inner_focus_color   FFCB6B
-berryc inner_unfocus_color 565679
+berryc inner_focus_color   5e81ac
+berryc inner_unfocus_color 4c566a
 berryc text_focus_color    ffffff
 berryc text_unfocus_color  eeeeee
 
