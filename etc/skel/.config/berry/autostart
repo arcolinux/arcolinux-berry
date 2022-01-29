@@ -58,7 +58,7 @@ run volumeicon &
 #run atom &
 
 # Set decoration geometry
-berryc border_width       0
+berryc border_width       2
 berryc inner_border_width 2
 berryc title_height       0
 berryc top_gap            30
@@ -66,8 +66,8 @@ berryc top_gap            30
 # Set decoration colors
 berryc focus_color         5e81ac
 berryc unfocus_color       4c566a
-berryc inner_focus_color   5e81ac
-berryc inner_unfocus_color 4c566a
+berryc inner_focus_color   none
+berryc inner_unfocus_color none
 berryc text_focus_color    ffffff
 berryc text_unfocus_color  eeeeee
 
@@ -75,4 +75,4 @@ berryc text_unfocus_color  eeeeee
 berryc smart_place "true"
 berryc draw_text   "true"
 berryc edge_lock   "true"
-berryc set_font    "Dina-9"
+berryc set_font    "Noto"
