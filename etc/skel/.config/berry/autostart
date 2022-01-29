@@ -22,9 +22,9 @@ $HOME/.config/polybar/launch.sh &
 keybLayout=$(setxkbmap -v | awk -F "+" '/symbols/ {print $2}')
 
 if [ $keybLayout = "be" ]; then
-  run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc-azerty &
+  run sxhkd -c ~/.config/berry/sxhkd/sxhkdrc-azerty &
 else
-  run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
+  run sxhkd -c ~/.config/berry/sxhkd/sxhkdrc &
 fi
 
 #Some ways to set your wallpaper besides variety or nitrogen
@@ -61,7 +61,7 @@ run volumeicon &
 # Set decoration geometry
 berryc border_width       5
 berryc inner_border_width 3
-berryc title_height       30
+berryc title_height       0
 berryc top_gap            30
 
 # Set decoration colors
