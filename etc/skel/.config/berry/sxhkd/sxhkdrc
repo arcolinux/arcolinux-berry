@@ -23,7 +23,6 @@ super + shift + {1-9}
 super + m
     berryc window_monocle
 
-#Toggle fullscreen of window
 super + f
     berryc fullscreen
 
@@ -39,7 +38,6 @@ super + n
 super + Tab
     berryc cycle_focus
 
-#kill
 super + q
     berryc window_close
 
