@@ -55,7 +55,6 @@ run volumeicon &
 #run insync start &
 #run discord &
 #run spotify &
-#run atom &
 
 # Set decoration geometry
 berryc border_width       2
