@@ -67,9 +67,9 @@ super + q
 super + F1
 	vivaldi-stable
 
-# Atom
+# Code	
 super + F2
-	atom
+	code
 
 #Inkscape
 super + F3
